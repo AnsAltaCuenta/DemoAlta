@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:actionLayout="@color/colorPrimary"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Inicio"
+            android:visible="true" />
+        <item
+            android:id="@+id/nav_tuto"
+            android:actionLayout="@color/colorPrimary"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Tutorial" />
+        <item
+            android:id="@+id/nav_contact"
+            android:actionLayout="@color/colorPrimary"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Contáctanos" />
+    </group>
+
+
+</menu>
